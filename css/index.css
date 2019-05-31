@@ -196,5 +196,45 @@ header nav {
 }
 
 .about2 {
+    margin-top: 20px;
+}
+.par1 {
+    margin-top: 20px;
+}
+
+main {
     margin-top: 30px;
+    height: 900px;
+    width: 800px;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px dashed black;
+}
+.left-side, .left-side2 {
+    margin-top: 20px;
+    width: 350px;
+    border-bottom: 1px dashed black;
+}
+.right-side, .right-side2 {
+    margin-top: 20px;
+    width: 350px;
+    border-bottom: 1px dashed black;
+}
+.learn-more {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.strategy2, .How-We-Work, .Places-We-Work, .collaboration, .strategy-paragraph, .work-paragraph, .about-paragraph, .collaboration-paragraph {
+    margin-top: 15px;
+}
+button {
+    border-radius: 10px;
+    border: 1.5px solid black;
+    padding: 10px;
+}
+
+.bottom-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
