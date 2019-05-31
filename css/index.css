@@ -144,3 +144,17 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header nav {
+    margin-top: 20px;
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.home, .about, .products, .blog, .contact {
+    margin-top: 30px;
+}
+.logo-black {
+    margin-left: -30px;
+}
