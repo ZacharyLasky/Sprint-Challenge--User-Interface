@@ -101,15 +101,42 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box2 {
+    background: gold;
+}
+.box3 {
+    background: cadetblue;
+}
+.box4 {
+    background: coral;
+}
+.box5 {
+    background: crimson;
+}
+.box6 {
+    background: forestgreen;
+}
+.box7 {
+    background: darkorchid;
+}
+.box8 {
+    background: hotpink;
+}
+.box9 {
+    background: indigo;
+}
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +170,83 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.logo-black {
+    transition: 3s;
+}
+.logo-black:hover {
+    transform: rotate(360deg);
+}
+
+header nav {
+    margin-top: 20px;
+	width: 800px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.home, .about, .products, .blog, .contact {
+    margin-top: 30px;
+}
+
+.jumbo {
+    margin-top: 30px;
+}
+
+.top-content {
+    margin-top: 30px;
+}
+
+.jumbo-about {
+    margin-top: 30px;
+}
+
+.description {
+    margin-left: 25px;
+}
+.about2 {
+    margin-top: 20px;
+}
+.par1 {
+    margin-top: 20px;
+}
+
+main {
+    margin-top: 30px;
+    height: 900px;
+    width: 800px;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px dashed black;
+}
+.left-side, .left-side2 {
+    margin-top: 20px;
+    width: 365px;
+    border-bottom: 1px dashed black;
+}
+.right-side, .right-side2 {
+    margin-top: 20px;
+    width: 365px;
+    border-bottom: 1px dashed black;
+}
+.learn-more {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.strategy2, .How-We-Work, .Places-We-Work, .collaboration, .strategy-paragraph, .work-paragraph, .about-paragraph, .collaboration-paragraph {
+    margin-top: 15px;
+}
+button {
+    border-radius: 10px;
+    border: 1.5px solid black;
+    padding: 10px;
+    width: 140px;
+}
+
+.bottom-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 25px;
 }
