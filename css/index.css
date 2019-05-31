@@ -174,16 +174,13 @@ footer nav a {
 
 header nav {
     margin-top: 20px;
-	width: 1000px;
+	width: 800px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 .home, .about, .products, .blog, .contact {
     margin-top: 30px;
-}
-.logo-black {
-    margin-left: -55px;
 }
 
 .jumbo {
