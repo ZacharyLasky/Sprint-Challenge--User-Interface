@@ -172,6 +172,13 @@ footer nav a {
     text-decoration: none;
 }
 
+.logo-black {
+    transition: 3s;
+}
+.logo-black:hover {
+    transform: rotate(360deg);
+}
+
 header nav {
     margin-top: 20px;
 	width: 800px;
@@ -216,12 +223,12 @@ main {
 }
 .left-side, .left-side2 {
     margin-top: 20px;
-    width: 350px;
+    width: 365px;
     border-bottom: 1px dashed black;
 }
 .right-side, .right-side2 {
     margin-top: 20px;
-    width: 350px;
+    width: 365px;
     border-bottom: 1px dashed black;
 }
 .learn-more {

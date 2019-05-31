@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+	I would describe semantic html as clearly defining your sections. An example would be 
+	<header class="my-header">
+		<nav class="navigation bar">
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+	display: block puts your content on separate lines. diplay: inline puts your content on the same line. 
+	display: block doesn't pay attention to width and height specifications. diplay: inline does pay attention to width and height specifications.
 
 3. What are the 4 areas of the box model?
 
+	content
+	padding
+	border
+	margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+	main axis
+
 5. Explain why git is valuable to a team of developers.
+
+	git allows a team to be able to commit and merge different sections of code. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
