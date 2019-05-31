@@ -195,6 +195,9 @@ header nav {
     margin-top: 30px;
 }
 
+.description {
+    margin-left: 25px;
+}
 .about2 {
     margin-top: 20px;
 }
@@ -222,7 +225,7 @@ main {
     border-bottom: 1px dashed black;
 }
 .learn-more {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 20px;
 }
 .strategy2, .How-We-Work, .Places-We-Work, .collaboration, .strategy-paragraph, .work-paragraph, .about-paragraph, .collaboration-paragraph {
@@ -232,9 +235,11 @@ button {
     border-radius: 10px;
     border: 1.5px solid black;
     padding: 10px;
+    width: 140px;
 }
 
 .bottom-section {
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: 25px;
 }
